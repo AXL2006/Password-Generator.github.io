@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Random Quote Generator</h1>
+        <div class="quote-box">
+            <p id="quote" class="quote-text">Your quote will appear here...</p>
+            <p id="author" class="quote-author"></p>
+        </div>
+        <button id="quote-btn" class="quote-button">Click To Get Inspired!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const url = 'https://picsum.photos/1920/1080'; // URL for a random image with specific dimensions
+
+        // Set the background image
+        document.body.style.backgroundImage = `url('${url}')`;
+    </script>
+</body>
+</html>
